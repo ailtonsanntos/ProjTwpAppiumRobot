@@ -26,6 +26,15 @@ Go To Login Form
     Click Text                        LOGIN
     Wait Until Page Contains          Fala QA, vamos testar o login?
 
+Go To SingUp Form
+    Open Nav
+
+    Click Text                        FORMS
+    Wait Until Page Contains          FORMS
+
+    Click Text                        CADASTRO
+    Wait Until Page Contains          Bem-vindo, crie sua conta
+
 Go To Radion Buttons
     Open Nav
 
@@ -35,4 +44,47 @@ Go To Radion Buttons
 
     Click Text                        BOTÕES DE RADIO 
     Wait Until Page Contains          Escolha sua linguagem preferida
+
+Go To CheckBox
+    Open Nav
+
+    Click Text                        INPUTS
+    Wait Until Page Contains          INPUTS
+
+
+    Click Text                        CHECKBOX
+    Wait Until Page Contains          Marque as techs que usam Appium
+
+Go To Short Click
+    Open Nav
+
+    Click Text                        BOTÕES
+    Wait Until Page Contains          CLIQUE SIMPLES
+
+    Click Text                        CLIQUE SIMPLES
+
+    Wait Until Page Contains          Botão clique simples
+
+Go To Long Click
+    Open Nav
+
+    Click Text                        BOTÕES
+    Wait Until Page Contains          CLIQUE LONGO
+
+    Click Text                        CLIQUE LONGO
+
+    Wait Until Page Contains          Botão clique longo
+
+Go To Avenger List
+    Open Nav
+
+    Click Text                        AVENGERS
+    Wait Until Page Contains          AVENGERS
+
+    Click Text                        LISTA
+    Wait Until Page Contains          LISTA
+
+    Sleep      5
+
+
     
